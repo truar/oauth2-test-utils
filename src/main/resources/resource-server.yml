@@ -1,0 +1,8 @@
+security:
+  oauth2:
+    client:
+      client-id: resource-server
+      client-secret: secret
+    resource.token-info-uri: http://localhost:1111/oauth/check_token
+
+server.port: 8080
